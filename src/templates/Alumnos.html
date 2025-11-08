@@ -2,7 +2,7 @@
 {% import "_macros.html" as macro %}
     {% block container %}
 
-    <form action="" method="post">
+    <form action="" method="post" novalidate>
         {{ macro.camposNuevos(form.matricula) }}
         {{ macro.camposNuevos(form.nombre) }}
         {{ macro.camposNuevos(form.apellido) }}
